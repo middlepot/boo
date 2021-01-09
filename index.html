@@ -218,6 +218,32 @@ word-wrap: break-word; letter-spacing: 1px; line-height:100%;
 </style>
 </head>
 
+<style>
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+@media screen and (max-width: 1000px) and (orientation: portrait){
+#everything { position: absolute; zoom: 130%;
+	left:720px;
+	top:-10px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+#stuff{overflow: auto;
+overflow: scroll;}
+}
+@media screen and (max-width: 1000px) and (orientation: landscape){
+#everything { position: absolute; zoom: 78%; left:-30px; top:1px;}
+#stuff{overflow: auto;
+overflow: scroll;}
+}
+</style>
+
+<div id="everything">
+
 <body style="background-image:url(https://i.imgur.com/allJa50.png); background-color:#faf5f0; font-family: Calibri; font-size: 12px; color:#735d48;">
 <body oncontextmenu="return false" ondragstart="return false" style="overflow-y:hidden; overflow-x:hidden;">
 
